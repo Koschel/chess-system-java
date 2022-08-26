@@ -11,7 +11,7 @@ public class Piece {
 		position = null;
 	}
 
-	//só pode ser usado psela classe boardgame
+	//só pode ser usado pela propria classe classe 
 	protected Board getBoard() {
 		return board;
 	}
