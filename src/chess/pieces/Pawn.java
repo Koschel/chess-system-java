@@ -22,7 +22,7 @@ public class Pawn extends ChessPiece{
 		
 		Position p = new Position(0, 0);
 		
-		if (getColor() == Color.WHITE) {
+		if (getColor() == Color.WHITE) { 
 			p.setValues(position.getRow() - 1, position.getColunm());
 			if(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
 				mat[p.getRow()][p.getColunm()] = true;
@@ -52,7 +52,7 @@ public class Pawn extends ChessPiece{
 				}
 			}
 			
-		}else {
+		}else { //Peças Pretas
 			p.setValues(position.getRow() + 1, position.getColunm());
 			if(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
 				mat[p.getRow()][p.getColunm()] = true;
