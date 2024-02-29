@@ -67,7 +67,7 @@ public class Board {
 	}
 	
 	public boolean positionExists(Position position) {
-		return positionExists(position.getRow(), position.getColunm());
+		return positionExists(position.getRow(),position.getColunm());
 	}
 	
 	public boolean thereIsAPiece (Position position) {
